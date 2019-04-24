@@ -22,6 +22,7 @@
             <th>Role</th>
             <th>Created</th>
             <th>Updated</th>
+             <th>Photo Id</th>
          </tr>
        </thead>
        <tbody>
@@ -39,6 +40,7 @@
             <td>{{$user->role->name}}</td>
             <td>{{$user->created_at->diffForHumans()}}</td>
             <td>{{$user->updated_at->diffForHumans()}}</td>
+             <td>{{$user->photo_id}}</td>
          </tr>
          <tr>
 
