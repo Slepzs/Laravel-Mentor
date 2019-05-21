@@ -1,7 +1,12 @@
 
 
-
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,400&display=swap');
 /****************User Profile  *********************/
+
+html, body, p, h1, h2, h3, h4, div {
+    font-family: 'Barlow', sans-serif;
+}
+
 .user-row {
     margin-bottom: 14px;
 }
@@ -34,4 +39,12 @@
 }
 .toppad
 {margin-top:20px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.open > .dropdown-menu {
+    height: auto;
 }

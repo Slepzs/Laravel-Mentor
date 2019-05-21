@@ -56,7 +56,7 @@ class User extends Authenticatable
 
     }
 
-    // Acessor
+    // Accessor
     public function getGravatarAttribute() {
 
         $hash = md5(strtolower(trim($this->attributes['email']))) . "?d=mm";
